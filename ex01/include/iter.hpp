@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   iter.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ebonutto <ebonutto@student.42.fr>          +#+  +:+       +#+        */
+/*   By: x03phy <x03phy@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 16:02:50 by ebonutto          #+#    #+#             */
-/*   Updated: 2025/05/15 17:04:40 by ebonutto         ###   ########.fr       */
+/*   Updated: 2025/05/15 19:47:40 by x03phy           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,10 @@
 #include <cstddef>
 
 template <typename T, typename F>
-void	iter(char *p, size_t len, F f)
+void	iter(T *a, size_t l, F f) {
+	for (size_t i = 0; i < l; i++) {
+		f(a[i]);
+	}
+}
 
 #endif
