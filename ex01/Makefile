@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ebonutto <ebonutto@student.42.fr>          +#+  +:+       +#+         #
+#    By: x03phy <x03phy@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/15 15:32:40 by ebonutto          #+#    #+#              #
-#    Updated: 2025/05/15 15:32:50 by ebonutto         ###   ########.fr        #
+#    Updated: 2025/05/15 22:36:14 by x03phy           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Start
+NAME = Iter
 CPPC = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
