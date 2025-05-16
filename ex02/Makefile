@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: x03phy <x03phy@student.42.fr>              +#+  +:+       +#+         #
+#    By: ebonutto <ebonutto@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/15 19:54:20 by x03phy            #+#    #+#              #
-#    Updated: 2025/05/15 19:54:21 by x03phy           ###   ########.fr        #
+#    Updated: 2025/05/16 10:01:44 by ebonutto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Start
+NAME = Array
 CPPC = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
